@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Bootstrap CSS
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Custom global styles
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.table {
+  background-color: white;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+// Loading spinner
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+// Error and success alerts
+.alert {
+  margin-bottom: 1rem;
+}
+
+// Custom responsive utilities
+@media (max-width: 768px) {
+  .table-responsive {
+    font-size: 0.875rem;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+<!-- Cat Explorer App -->
+
+<div class="d-flex flex-column min-vh-100">
+  <!-- Navigation -->
+  <app-navbar></app-navbar>
+  
+  <!-- Main Content -->
+  <main class="flex-grow-1">
+    <router-outlet></router-outlet>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-3 mt-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-0">&copy; 2024 Cat Explorer. Desarrollado con Angular y The Cat API.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <small class="text-muted">
+            <a href="https://thecatapi.com/" target="_blank" rel="noopener" class="text-light">
+              Powered by The Cat API
+            </a>
+          </small>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>

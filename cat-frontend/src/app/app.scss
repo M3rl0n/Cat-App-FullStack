@@ -1,0 +1,18 @@
+// App Component Styles
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+footer {
+  background-color: var(--bs-dark) !important;
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    
+    &:hover {
+      color: var(--bs-light);
+      text-decoration: underline;
+    }
+  }
+}
