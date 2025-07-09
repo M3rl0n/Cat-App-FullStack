@@ -48,7 +48,6 @@ El frontend correrá en `http://localhost:4200`
 
 ### 🔧 Técnicas
 - Diseño responsive con Bootstrap
-- Autenticación JWT
 - Integración con The Cat API
 - Base de datos MongoDB Atlas
 - Manejo de errores robusto
